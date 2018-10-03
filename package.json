@@ -1,0 +1,22 @@
+{
+  "name": "ultimate-bravery",
+  "version": "1.0.0",
+  "description": "Electron app for League of Legends that recommends various random builds for you to experiment with in-game.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonydevelops/ultimate-bravery.git"
+  },
+  "author": "Trevor Ching & Anthony Campos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonydevelops/ultimate-bravery/issues"
+  },
+  "homepage": "https://github.com/anthonydevelops/ultimate-bravery#readme",
+  "dependencies": {
+    "electron": "^3.0.3"
+  }
+}
