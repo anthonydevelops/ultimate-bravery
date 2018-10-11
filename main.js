@@ -7,7 +7,7 @@ let win;
 
 function createWindow() {
   // Create browser window
-  win = new BrowserWindow({ width: 800, height: 600 });
+  win = new BrowserWindow({ fullscreen: true });
 
   // Load index.html
   win.loadURL(
@@ -19,7 +19,7 @@ function createWindow() {
   );
 
   // Open Chrome DevTools
-  win.webContents.openDevTools();
+  // win.webContents.openDevTools();
 
   win.on("closed", () => {
     win = null;
