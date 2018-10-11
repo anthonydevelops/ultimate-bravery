@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  font-family: "K2D", sans-serif;
+}
+
+body {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+/* Grid Wrapper */
+.container {
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+/* Main Header */
+.title {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #c9aa71;
+  grid-column: 1 / 4;
+}
+
+/* Summoner Intro Header */
+.sum-intro {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  grid-column: 1 / 4;
+}
+
+/* Summoner Description */
+.sum-desc {
+  font-size: 1rem;
+  grid-column: 1 / 4;
+  margin-bottom: 2rem;
+}
+
+/* Display of LOL maps */
+.map-display {
+  padding-top: 10%;
+  grid-column: 1 / 4;
+  position: relative;
+  text-align: center;
+}
+
+/* Each individual map img */
+.map1,
+.map2,
+.map3 {
+  position: relative;
+  display: inline-block;
+}
